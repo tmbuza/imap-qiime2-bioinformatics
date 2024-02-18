@@ -1,0 +1,162 @@
+Project Tree
+.
+├── 00-preface.Rmd
+├── 01_qiime2_getting_started.Rmd
+├── 02_qiime2_seq_clustering.Rmd
+├── 03_qiime2_process.Rmd
+├── 99-appendix.Rmd
+├── 999-references.Rmd
+├── 9999-footer.Rmd
+├── LICENSE
+├── LICENSE.md
+├── README.md
+├── _bookdown.yml
+├── _common.R
+├── _output.yml
+├── bs4_template.html
+├── config
+│   ├── config.yml
+│   ├── pbs
+│   ├── samples.tsv
+│   ├── slurm
+│   └── units.tsv
+├── dags
+│   ├── rulegraph.png
+│   └── rulegraph.svg
+├── data
+│   ├── barcodes.fastq.gz
+│   ├── forward.fastq.gz
+│   ├── logs
+│   ├── metadata
+│   ├── reads
+│   ├── reads_test
+│   ├── references
+│   ├── reverse.fastq.gz
+│   ├── sample_metadata.tsv
+│   └── test_test
+├── docs
+│   ├── 00-preface.md
+│   ├── 01_qiime2_getting_started.md
+│   ├── 02_qiime2_seq_clustering.md
+│   ├── 03_qiime2_process.md
+│   ├── 404.html
+│   ├── 99-appendix.md
+│   ├── 999-references.md
+│   ├── 9999-footer.md
+│   ├── alpha-diversity-metrics.html
+│   ├── beta-diversity-metrics.html
+│   ├── classification-methods-for-qiime2.html
+│   ├── classification-methods.html
+│   ├── dags
+│   ├── differential-abundance.html
+│   ├── download-a-qiime-2-trained-classifer.html
+│   ├── downloading-demo-data.html
+│   ├── expected-output-artifacts.html
+│   ├── expected-output-visualizations.html
+│   ├── exploring-beta-diversity-metric.html
+│   ├── getting-started-with-qiime-2-pipeline.html
+│   ├── getting-started-with-qiime2.html
+│   ├── images
+│   ├── imap-github-repos.html
+│   ├── import-or-download-demo-data.html
+│   ├── importable_formats.txt
+│   ├── importable_types.txt
+│   ├── index.html
+│   ├── index.md
+│   ├── libs
+│   ├── mothur-bioinformatics-rulegraph.html
+│   ├── partp-diversity-analysis.html
+│   ├── preparing-silva-reference-database.html
+│   ├── primers.md
+│   ├── qiime2-bioinformatics-rulegraph.html
+│   ├── qiime2-bioinformatics.html
+│   ├── qiime2-diversity-analysis.html
+│   ├── qiime2-platform.html
+│   ├── read-quality-control.html
+│   ├── reference-keys.txt
+│   ├── references.html
+│   ├── search.json
+│   ├── session-information.html
+│   └── style.css
+├── images
+│   ├── 16srrna.png
+│   ├── bioinformatics.png
+│   ├── bkgd.png
+│   ├── empress-tree.png
+│   ├── empress-tree.svg
+│   ├── imap_part05.svg
+│   └── smkreport
+├── imap-qiime2-bioinformatics.Rproj
+├── index.Rmd
+├── library
+│   ├── apa.csl
+│   ├── export.bib
+│   ├── imap.bib
+│   ├── packages.bib
+│   └── references.bib
+├── output
+├── qiime2_process
+│   ├── aligned-rep-seqs.qza
+│   ├── alpha-rarefaction.qzv
+│   ├── alpha-rarefaction.zip
+│   ├── alpha_diversity
+│   ├── beta_diversity
+│   ├── demux-subsample.qza
+│   ├── demux-subsample.qzv
+│   ├── demux-subsample.zip
+│   ├── demux.qza
+│   ├── demux.qzv
+│   ├── demux.zip
+│   ├── efa5326c-50ac-4ed0-9a74-006580838995
+│   ├── export
+│   ├── feature-table-genus.qza
+│   ├── feature-table.qza
+│   ├── feature-table.qzv
+│   ├── feature-taxonomy-table.qzv
+│   ├── interactive1
+│   ├── interactive2
+│   ├── masked-aligned-rep-seqs.qza
+│   ├── masked-aligned-rep-seqs.qzv
+│   ├── rarefy_interactive
+│   ├── rep-seqs.qza
+│   ├── rep-seqs.qzv
+│   ├── rooted-tree
+│   ├── rooted-tree.qza
+│   ├── sample-metadata.qzv
+│   ├── sample-metadata.tsv
+│   ├── stats.qza
+│   ├── stats.qzv
+│   ├── taxonomy.qza
+│   ├── taxonomy.qzv
+│   ├── tree.qzv
+│   ├── tree.zip
+│   ├── tree_interactive
+│   ├── unrooted-tree
+│   └── unrooted-tree.qza
+├── renv
+│   ├── activate.R
+│   ├── library
+│   ├── settings.json
+│   └── staging
+├── renv.lock
+├── reports
+│   ├── project_tree.txt
+│   └── snakemake_report.html
+├── requirements.txt
+├── resources
+│   ├── gg_classifier
+│   ├── metadata
+│   ├── reads
+│   ├── session_info.txt
+│   ├── silva_classifier
+│   └── test
+├── sra-reads.rds
+├── style.css
+└── workflow
+    ├── Snakefile
+    ├── envs
+    ├── report
+    ├── rules
+    └── scripts
+
+46 directories, 113 files

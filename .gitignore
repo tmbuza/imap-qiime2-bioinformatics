@@ -1,4 +1,5 @@
 # Additional
+qiime2_process/*
 report.html
 .vscode
 .DS_store
@@ -13,8 +14,6 @@ code
 *leaflet*
 REFER
 data/*
-dags/dag.svg
-dags/dag.png
 resources/*
 results/*
 current_files.summary # from mothur pipeline

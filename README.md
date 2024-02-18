@@ -1,1 +1,1 @@
-# Microbiome Data Profiling with QIIME2
+# imap-bioinformatics-qiime2
