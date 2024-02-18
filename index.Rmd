@@ -45,10 +45,21 @@ source("_common.R")
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 
-# <u>IMAP-Part </u>:  {-#}
+# <u>IMAP-Part 06</u>: Microbiome Profiling with QIIME2 Pipeline {-#qiime2-profiling}
 
 <br>
 <br>
-![Book cover](images/){width=50%}
+![Book cover](images/16srrna.png)
 
-## Welcome {-}
+## Welcome to Chapter 6 {-}
+Explore Microbiome Profiling with the QIIME2 Pipeline in Chapter 6 of the IMAP Practical User Guides series.
+
+Building on the groundwork laid in previous chapters, this section focuses on standardized approaches for metadata and sequence data retrieval, quality control, and microbiome profiling using the Mothur pipeline.
+
+Now, seamlessly integrating QIIME2 into the workflow in Part 06, we provide a comprehensive perspective on its application in the realm of microbiome research.
+
+Join us as we navigate through the features of QIIME2, leveraging insights gained from prior analyses. This chapter facilitates a smooth transition, empowering you with the skills necessary to conduct robust microbiome bioinformatics and derive meaningful conclusions from your data.
+
+
+
+

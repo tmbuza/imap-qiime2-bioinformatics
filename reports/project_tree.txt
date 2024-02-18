@@ -1,6 +1,14 @@
 Project Tree
 .
+├── 00-preface.Rmd
+├── 01_qiime2_getting_started.Rmd
+├── 02_qiime2_seq_clustering.Rmd
+├── 03_qiime2_process.Rmd
+├── 99-appendix.Rmd
+├── 999-references.Rmd
+├── 9999-footer.Rmd
 ├── LICENSE
+├── LICENSE.md
 ├── README.md
 ├── _bookdown.yml
 ├── _common.R
@@ -8,8 +16,13 @@ Project Tree
 ├── bs4_template.html
 ├── config
 │   ├── config.yml
+│   ├── pbs
 │   ├── samples.tsv
+│   ├── slurm
 │   └── units.tsv
+├── dags
+│   ├── rulegraph.png
+│   └── rulegraph.svg
 ├── data
 │   ├── barcodes.fastq.gz
 │   ├── forward.fastq.gz
@@ -22,19 +35,64 @@ Project Tree
 │   ├── sample_metadata.tsv
 │   └── test_test
 ├── docs
-│   └── libs
+│   ├── 00-preface.md
+│   ├── 01_qiime2_getting_started.md
+│   ├── 02_qiime2_seq_clustering.md
+│   ├── 03_qiime2_process.md
+│   ├── 404.html
+│   ├── 99-appendix.md
+│   ├── 999-references.md
+│   ├── 9999-footer.md
+│   ├── alpha-diversity-metrics.html
+│   ├── beta-diversity-metrics.html
+│   ├── classification-methods-for-qiime2.html
+│   ├── classification-methods.html
+│   ├── dags
+│   ├── differential-abundance.html
+│   ├── download-a-qiime-2-trained-classifer.html
+│   ├── downloading-demo-data.html
+│   ├── expected-output-artifacts.html
+│   ├── expected-output-visualizations.html
+│   ├── exploring-beta-diversity-metric.html
+│   ├── getting-started-with-qiime-2-pipeline.html
+│   ├── getting-started-with-qiime2.html
+│   ├── images
+│   ├── imap-github-repos.html
+│   ├── import-or-download-demo-data.html
+│   ├── importable_formats.txt
+│   ├── importable_types.txt
+│   ├── index.html
+│   ├── index.md
+│   ├── libs
+│   ├── mothur-bioinformatics-rulegraph.html
+│   ├── partp-diversity-analysis.html
+│   ├── preparing-silva-reference-database.html
+│   ├── primers.md
+│   ├── qiime2-bioinformatics-rulegraph.html
+│   ├── qiime2-bioinformatics.html
+│   ├── qiime2-diversity-analysis.html
+│   ├── qiime2-platform.html
+│   ├── read-quality-control.html
+│   ├── reference-keys.txt
+│   ├── references.html
+│   ├── search.json
+│   ├── session-information.html
+│   └── style.css
 ├── images
 │   ├── 16srrna.png
 │   ├── bioinformatics.png
 │   ├── bkgd.png
-│   ├── cicd.png
 │   ├── empress-tree.png
 │   ├── empress-tree.svg
-│   └── imap_part05.svg
+│   ├── imap_part05.svg
+│   └── smkreport
+├── imap-qiime2-bioinformatics.Rproj
 ├── index.Rmd
 ├── library
 │   ├── apa.csl
+│   ├── export.bib
 │   ├── imap.bib
+│   ├── packages.bib
 │   └── references.bib
 ├── output
 ├── qiime2_process
@@ -82,7 +140,8 @@ Project Tree
 │   └── staging
 ├── renv.lock
 ├── reports
-│   └── project_tree.txt
+│   ├── project_tree.txt
+│   └── snakemake_report.html
 ├── requirements.txt
 ├── resources
 │   ├── gg_classifier
@@ -91,6 +150,7 @@ Project Tree
 │   ├── session_info.txt
 │   ├── silva_classifier
 │   └── test
+├── sra-reads.rds
 ├── style.css
 └── workflow
     ├── Snakefile
@@ -99,4 +159,4 @@ Project Tree
     ├── rules
     └── scripts
 
-40 directories, 59 files
+46 directories, 113 files

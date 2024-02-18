@@ -1,0 +1,12 @@
+
+name: qiime220232
+channels:
+  - qiime2/label/r2023.2
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - q2-dada2=2023.2.0
+  - q2-vsearch=2023.2.0
+  - qiime2=2023.2.0
+  - rescript =2023.2.0
