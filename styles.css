@@ -1,45 +1,100 @@
-body{ font-size: 14px; text-align: left; font-family: "Merriweather"; background-color: #cccccc;}
-body h1{ font-size: 3.0em; text-transform: capitalize; font-family: "Roboto" ;  font-weight: 700; }
-body h2 { margin-top: 1.5em; font-size: 2.0em; }
+#quick-glimpse img{
+  float: right;
+  width: 60%;
+  padding: 10px, 10px, 10px, 10px;
+}
+#license img{
+  width: 30%;
+  padding-right: 20px;
+}
+
+.sidebar li.book-part {
+  margin-top: 1rem;
+  color: #bbb
+}
+
+table {
+  background-color: #eeeeee;
+  color: black;
+}
+
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+/* Set max width for images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add margin for images */
+.img-wrapper {
+  margin: 20px 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .img-wrapper {
+    margin: 10px 0;
+  }
+}
+.book .book-body .page-wrapper .page-inner section.normal p, h1, h2, h3, h4, h5{
+  font-family: "Roboto"; 
+}
+.book .book-body .page-wrapper .page-inner section.normal h1 {
+  font-size: 3.0em; 
+  font-style: normal; 
+  text-transform: normal; 
+  font-weight: 700;}
+
+body h1 { font-size: 2.8em; text-transform: normal; font-weight: 300;}
+body h2 { margin-top: 1.5em; font-size: 2.0em;}
 body h3 { margin-top: 1.5em; font-size: 1.6em; }
 body h4 { margin-top: 1.5em; font-size: 1.2em; }
 body h5 { margin-top: 1.5em; font-size: 1em; }
+body em { font-style: normal; }
 
 
-h1, h2, h3, h4, h5{ line-height: 1.5; }
+h1, h2, h3, h4, h5{ line-height: 1.3; }
 p { line-height: 2; }
 
+
 #main-container { width: 100%; background-color: white; color: black; padding: 30px; margin-left: auto; margin-right: auto; }
-#chunks {background-color: rgb(238, 244, 162);}
 
 
-#header { color: white; margin-left: auto; margin-right: auto; 
+#header { color: black; margin-left: auto; margin-right: auto; font-style: normal; 
   text-align: center; line-height: 1.5; width: 100%; padding: 5%; 
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(1, 97, 20, 0.9), rgb(233, 240, 28, 0.8), rgb(238, 244, 162)); /*, url("images/bkgd.png"); */
-  /* url("images/bkgd.png"); */
-  /* background-image: url("images/bkgd.png"); */
-  background-position: bottom;
-  background-repeat: repeat-y;
-  opacity: 1.0; 
-  background-size: contain;
-}
-#header big{ color: white; font-family: "Anton"; }
+  background-color: rgb(238, 244, 162);
+} 
+#header big{ color: black; font-family: "Anton"; background: none;}
 
-#header h1 { font-size: 2.8em; text-transform: capitalize; font-family: "Roboto"; font-weight: 900; }
+#header h1 { font-size: 2.8em; text-transform: normal; font-family: "Roboto"; font-weight: 900; }
 
-#header .subtitle{ color: black;  text-transform: capitalize; font-family: "Roboto"; font-weight: 500; text-align: center; line-height: 1.3; padding: 20px; }
+#header .subtitle{ font-size: 1.8em; color: black;  text-transform: normal; 
+  font-family: "Roboto"; font-weight: 300; text-align: center; line-height: 1.3; padding: 40px; }
 
-#header .date{ font-size: 16px; } 
-
-/* #header img{ width:90%; background: rgba(232, 245, 92, 0.991);background-size: cover; } */
+#header img{ max-width:100%; background: none; background-size: cover; }
 
 a{ color: #0786f3; }
 
 .author{ display: none; }
 
-.date{ color: #6c6c6c; font-family: "Merriweather"; font-weight: normal; }
+#header .date { color: #6c6c6c; font-size: 1.2em; font-style: normal; line-height: 1.3; }
+#header .subtitle em{ font-style: normal; }
+#header .date em{ font-style: normal; }
 
-table tbody tr td { font-size: 12px; text-transform: capitalize; }
+table tbody tr td { font-size: 12px; text-transform: normal; }
 
 body img{ width: 90%; display: block; margin-left: auto; margin-right: auto; }
 
@@ -47,119 +102,138 @@ body img{ width: 90%; display: block; margin-left: auto; margin-right: auto; }
 
 #footer a{ color: rgb(82, 214, 247)}
 
-blockquote { color: #6c6c6c; padding: 10px 20px; margin: 0 0 20px; font-size: 14px; border-left: 5px solid #ddd; }
+blockquote {padding: 10px 20px; margin: 0 0 20px; font-size: 14px; border-left: 5px solid #dddddd; }
 
-hr { display: inline-block; text-align: left; margin: 0px; height: 1px; border: none; background-color: #c6bc04; }
+hr { display: inline-block; text-align: left; margin: 0px; height: 1px; border: none; background-color: #dddddd; }
 
-code{ color:#6c6c6c; font-size: 98%; background-color: #f5f5f5; }
+ /* Original bookdown style */
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+/* Set max width for images */
+img {
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  transform: translate(0%, 0%);
+}
 
-@media only screen and (max-width: 768px) { .main-container { max-width: 100%; padding: 2% 2% 2% 2%; }}
+/* Set max width for header images */
+#header img {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  transform: translate(-1%, -1%);
+}
 
-.tmbcomment, .tmbalert, .tmbinfo, .tmbqns, .tmbcheck1, .tmbcheck2, .tmbshare, .tmbarrowF, .tmb2arrowsF {
-  padding: 1em 1em 1em 4em;
+
+/* Add margin for images */
+.img-wrapper {
+  margin: 10px 0;
+  border: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .img-wrapper {
+    margin: 10px 0;
+  }
+}
+
+/* Styling for the footer */
+footer .bg-primary{
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+}
+
+/* Add additional styling for footer text */
+footer p {
+  margin: 0;
+}
+
+/* Add additional styling for footer links */
+footer a {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+#footer {
+    height: auto;
+    font-size: 90%;
+    background-color: #000000;
+    color: white;
+    padding: 20px
+}
+
+#footer a {
+    color: rgb(82, 214, 247)
+}
+
+
+
+/*Font awesome*/
+
+/* .tmbcomment, .tmbalert, .tmbinfo, .tmbqns, .tmbcheck1, .tmbcheck2, .tmbshare, .tmbarrowF, .tmb2arrowsF { */
+.infoicon, .questionicon, .alerticon, .arrowicon, .tmbinfo, .tmbqns, .tmbcheck1, .tmbcheck2, .tmbshare, .tmbarrowF, .tmb2arrowsF{
+  padding: 1em 1em 1em 1em;
   margin-bottom: 10px;
-  background: #f5f5f5;
+  background: #022400;
+  color: white;
   position:relative;
 }
-
-.tmbcomment:before {
-    content: "\f14d";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
-
-.tmbalert:before {
-    content: "\f06a";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
-
-.tmbinfo:before {
-    content: "\f05a";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
-
-.tmbinfo2:before {
-    content: "\10f129";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
- 
-.tmbarrowF:before {
-    content: "\f0a9";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
- 
-.tmb2arrowsF:before {
-    content: "\f101";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
- 
-.tmbshare:before {
-    content: "\f064";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 35px;
- }
- 
-.tmbqns:before {
-    content: "\f059";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
-
-.tmbcheck1:before {
-    content: "\f14a";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
- 
-.tmbcheck2:before {
-    content: "\f058";
-    font-family: FontAwesome;
-    left:10px;
-    position:absolute;
-    font-size: 45px;
- }
- div.sourceCode {
-  position: relative;
+.infoicon::before, .questionicon::before, .alerticon::before, .arrowicon::before, .tmbinfo::before, .tmbqns::before, .tmbcheck1::before, .tmbcheck2::before, .tmbshare::before, .tmbarrowF::before, .tmb2arrowsF{
+  margin-bottom: 10px;
+}
+.infoicon::before, .questionicon::before, .alerticon::before, .arrowicon::before, .tmbinfo::before, .tmbqns::before, .tmbcheck1::before, .tmbcheck2::before, .tmbshare::before, .tmbarrowF::before, .tmb2arrowsF{
+  margin-bottom: 10px;
+}
+/* Styling for info icon */
+.infoicon::before {
+  content: "\f05a";
+  font-family: FontAwesome;
+  font-weight: 900;
+  margin-right: 5px;
+  font-size: 25px;
 }
 
-.copy-to-clipboard-button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  visibility: hidden;
+/* Styling for alert icon */
+.alerticon::before {
+  content: "\f06a";
+  font-family: FontAwesome;
+  font-weight: 900;
+  margin-right: 5px;
+  font-size: 25px;
 }
 
-.copy-to-clipboard-button:focus {
-  outline: 0;
+/* Styling for question icon */
+.questionicon::before {
+  content: "\f128";
+  font-family: FontAwesome;
+  font-weight: 900;
+  margin-right: 5px;
+  font-size: 25px;
 }
 
-div.sourceCode:hover > .copy-to-clipboard-button {
-  visibility: visible;
+/* Styling for right arrow icon */
+.arrowicon::before {
+  content: "\f178";
+  font-family: FontAwesome;
+  font-weight: 900;
+  margin-right: 5px;
+  font-size: 25px;
 }
 
-.leaflet-contaioner {
-  background: red;
-} 
