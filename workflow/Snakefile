@@ -167,7 +167,7 @@ rule render_bs4_book:
 		"reports/project_tree.txt",
 		"reports/snakemake_report.html",
 		"dags/rulegraph.svg",
-		"qiime2_process/alpha-rarefaction.qzv",
+		"qiime2_process/alpha_diversity/shannon_vector.qza",
 		"qiime2_process/beta_diversity/bray_curtis_emperor.qzv",
 
 	output:
