@@ -59,7 +59,3 @@ Building on the groundwork laid in previous chapters, this section focuses on st
 Now, seamlessly integrating QIIME2 into the workflow in Part 06, we provide a comprehensive perspective on its application in the realm of microbiome research.
 
 Join us as we navigate through the features of QIIME2, leveraging insights gained from prior analyses. This chapter facilitates a smooth transition, empowering you with the skills necessary to conduct robust microbiome bioinformatics and derive meaningful conclusions from your data.
-
-
-
-
