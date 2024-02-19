@@ -19,4 +19,3 @@ rmd_files:
     - 99-appendix.Rmd
     - 999-references.Rmd
     - 9999-footer.Rmd
-  
