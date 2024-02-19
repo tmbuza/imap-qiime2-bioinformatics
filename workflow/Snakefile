@@ -44,12 +44,12 @@ include: "rules/qiime2_core_metrics.smk"
 report: "report/workflow.rst"
 
 rule FINAL_TARGET:
-    input: 
-        "docs/index.html"
+	input: 
+		"docs/index.html",
 		# "resources/metadata/qiime2_manifest_file.tsv",
 		# "resources/metadata/qiime2_sample_metadata.tsv",
-        # "config/samples.tsv",
-        # "config/units.tsv",
+		# "config/samples.tsv",
+		# "config/units.tsv",
 
 		# "qiime2_process/sample-metadata.qzv",
 		# "qiime2_process/sample-metadata.tsv",
@@ -162,13 +162,15 @@ rule snakemake_report:
 
 
 rule render_bs4_book:
-    input:
-        "index.Rmd",
-        "reports/project_tree.txt",
-        "reports/snakemake_report.html",
-        "dags/rulegraph.svg", 
+	input:
+		"index.Rmd",
+		"reports/project_tree.txt",
+		"reports/snakemake_report.html",
+		"dags/rulegraph.svg",
+		"qiime2_process/alpha-rarefaction.qzv",
+		"qiime2_process/beta_diversity/bray_curtis_emperor.qzv",
 
-    output:
-        "docs/index.html"
-    shell:
-        "R -e 'bookdown::render_book(input = \"index.Rmd\", output_format = \"bookdown::bs4_book\", output_dir = \"docs\")'"
+	output:
+		"docs/index.html"
+	shell:
+		"R -e 'bookdown::render_book(input = \"index.Rmd\", output_format = \"bookdown::bs4_book\", output_dir = \"docs\")'"
