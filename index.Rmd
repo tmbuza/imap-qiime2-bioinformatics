@@ -17,10 +17,10 @@ citation_package:
   - natbib
   - biblatex
   - amsplain
-url: https://tmbuza.github.io/imap-project-overview/
+url: https://tmbuza.github.io/imap-qiime2-bioinformatics/
 cover-image: images/planning.png
 email_address: "ndelly@gmail.com"
-github-repo: tmbuza/imap-project-overview
+github-repo: tmbuza/imap-qiime2-bioinformatics
 biblio-style: apalike
 description: |
   | This part will be added before release.
