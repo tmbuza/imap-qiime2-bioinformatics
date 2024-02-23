@@ -17,6 +17,7 @@ data/*
 resources/*
 results/*
 current_files.summary # from mothur pipeline
+renv/
 
 images/*
 !images/cover.png
