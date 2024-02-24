@@ -47,7 +47,7 @@ description: |
 
 <br>
 <br>
-![Book cover](images/16srrna.png)
+![](images/16srrna.png)
 
 ## Welcome to Chapter 6 {-}
 Explore Microbiome Profiling with the QIIME2 Pipeline in Chapter 6 of the IMAP Practical User Guides series.
