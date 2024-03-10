@@ -4,18 +4,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>References | IMAP: Integrated Microbiome Analysis Pipelines</title>
+<title>8 Exploring QIIME 2 Output: Feature Table, Taxonomy, and Metadata | IMAP: Integrated Microbiome Analysis Pipelines</title>
 <meta name="author" content="Teresia Mrema-Buza">
-<meta name="description" content="[1] Bolyen, E., Rideout, J. R., Dillon, M. R., Bokulich, N. A., Abnet, C. C., Al-Ghalith, G. A., … Caporaso, J. G. (2019). Reproducible, interactive, scalable and extensible microbiome data...">
+<meta name="description" content="In this section, we’ll explore key components, including the Feature Table, Taxonomy information, and associated metadata.  8.1 Initial Data Exploration Before jumping into the analysis, let’s get...">
 <meta name="generator" content="bookdown 0.37 with bs4_book()">
-<meta property="og:title" content="References | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta property="og:title" content="8 Exploring QIIME 2 Output: Feature Table, Taxonomy, and Metadata | IMAP: Integrated Microbiome Analysis Pipelines">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://tmbuza.github.io/imap-qiime2-bioinformatics/references.html">
+<meta property="og:url" content="https://tmbuza.github.io/imap-qiime2-bioinformatics/exploring-qiime-2-output-feature-table-taxonomy-and-metadata.html">
 <meta property="og:image" content="https://tmbuza.github.io/imap-qiime2-bioinformatics/images/planning.png">
-<meta property="og:description" content="[1] Bolyen, E., Rideout, J. R., Dillon, M. R., Bokulich, N. A., Abnet, C. C., Al-Ghalith, G. A., … Caporaso, J. G. (2019). Reproducible, interactive, scalable and extensible microbiome data...">
+<meta property="og:description" content="In this section, we’ll explore key components, including the Feature Table, Taxonomy information, and associated metadata.  8.1 Initial Data Exploration Before jumping into the analysis, let’s get...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="References | IMAP: Integrated Microbiome Analysis Pipelines">
-<meta name="twitter:description" content="[1] Bolyen, E., Rideout, J. R., Dillon, M. R., Bokulich, N. A., Abnet, C. C., Al-Ghalith, G. A., … Caporaso, J. G. (2019). Reproducible, interactive, scalable and extensible microbiome data...">
+<meta name="twitter:title" content="8 Exploring QIIME 2 Output: Feature Table, Taxonomy, and Metadata | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta name="twitter:description" content="In this section, we’ll explore key components, including the Feature Table, Taxonomy information, and associated metadata.  8.1 Initial Data Exploration Before jumping into the analysis, let’s get...">
 <meta name="twitter:image" content="https://tmbuza.github.io/imap-qiime2-bioinformatics/images/planning.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
@@ -86,12 +86,12 @@
 <li class="book-part">DIFFERENTIAL ANALYSIS</li>
 <li><a class="" href="differential-abundance.html"><span class="header-section-number">7</span> Differential Abundance</a></li>
 <li class="book-part">QIIME2 OUTPUT ANALYSIS</li>
-<li><a class="" href="exploring-qiime-2-output-feature-table-taxonomy-and-metadata.html"><span class="header-section-number">8</span> Exploring QIIME 2 Output: Feature Table, Taxonomy, and Metadata</a></li>
+<li><a class="active" href="exploring-qiime-2-output-feature-table-taxonomy-and-metadata.html"><span class="header-section-number">8</span> Exploring QIIME 2 Output: Feature Table, Taxonomy, and Metadata</a></li>
 <li class="book-part">APPENDIX</li>
 <li><a class="" href="imap-github-repos.html"><span class="header-section-number">A</span> IMAP GitHub Repos</a></li>
 <li><a class="" href="qiime2-bioinformatics-rulegraph.html"><span class="header-section-number">B</span> QIIME2 Bioinformatics Rulegraph</a></li>
 <li><a class="" href="session-information.html"><span class="header-section-number">C</span> Session Information</a></li>
-<li><a class="active" href="references.html">References</a></li>
+<li><a class="" href="references.html">References</a></li>
 </ul>
 
         <div class="book-extra">
@@ -99,39 +99,56 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="references" class="section level1 unnumbered">
-<h1>References<a class="anchor" aria-label="anchor" href="#references"><i class="fas fa-link"></i></a>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="exploring-qiime-2-output-feature-table-taxonomy-and-metadata" class="section level1" number="8">
+<h1>
+<span class="header-section-number">8</span> Exploring QIIME 2 Output: Feature Table, Taxonomy, and Metadata<a class="anchor" aria-label="anchor" href="#exploring-qiime-2-output-feature-table-taxonomy-and-metadata"><i class="fas fa-link"></i></a>
 </h1>
+<p>In this section, we’ll explore key components, including the Feature Table, Taxonomy information, and associated metadata.</p>
+<div id="initial-data-exploration" class="section level2" number="8.1">
+<h2>
+<span class="header-section-number">8.1</span> Initial Data Exploration<a class="anchor" aria-label="anchor" href="#initial-data-exploration"><i class="fas fa-link"></i></a>
+</h2>
+<p>Before jumping into the analysis, let’s get acquainted with the primary outputs generated by QIIME 2:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Feature Table:</strong> This table represents the abundance of different features (microbial taxa or operational taxonomic units) across samples.</p></li>
+<li><p><strong>Taxonomy Data:</strong> Information on the taxonomic classification of each feature, helping us understand the microbial community composition.</p></li>
+<li><p><strong>Metadata:</strong> Additional information associated with each sample, providing context and experimental details.</p></li>
+</ol>
+</div>
+<div id="starting-the-analysis" class="section level2" number="8.2">
+<h2>
+<span class="header-section-number">8.2</span> Starting the Analysis<a class="anchor" aria-label="anchor" href="#starting-the-analysis"><i class="fas fa-link"></i></a>
+</h2>
+<ol style="list-style-type: decimal">
+<li>
+<strong>Load Data:</strong> Begin by loading the Feature Table, Taxonomy, and metadata into your analysis environment.</li>
+</ol>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Example R code for loading QIIME 2 data</span></span>
+<span><span class="va">feature_table</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/utils/read.table.html">read.table</a></span><span class="op">(</span><span class="st">"path/to/feature_table.tsv"</span>, sep <span class="op">=</span> <span class="st">"\t"</span>, header <span class="op">=</span> <span class="cn">TRUE</span>, row.names <span class="op">=</span> <span class="fl">1</span><span class="op">)</span></span>
+<span><span class="va">taxonomy_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/utils/read.table.html">read.table</a></span><span class="op">(</span><span class="st">"path/to/taxonomy_data.tsv"</span>, sep <span class="op">=</span> <span class="st">"\t"</span>, header <span class="op">=</span> <span class="cn">TRUE</span>, row.names <span class="op">=</span> <span class="fl">1</span><span class="op">)</span></span>
+<span><span class="va">metadata</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/utils/read.table.html">read.table</a></span><span class="op">(</span><span class="st">"path/to/metadata.tsv"</span>, sep <span class="op">=</span> <span class="st">"\t"</span>, header <span class="op">=</span> <span class="cn">TRUE</span>, row.names <span class="op">=</span> <span class="fl">1</span><span class="op">)</span></span></code></pre></div>
 
-<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="1">
-<div class="csl-entry">
-<div class="csl-left-margin">[1] </div>
-<div class="csl-right-inline">Bolyen, E., Rideout, J. R., Dillon, M. R., Bokulich, N. A., Abnet, C. C., Al-Ghalith, G. A., … Caporaso, J. G. (2019). Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. <em>Nature Biotechnology</em>, <em>37</em>(8), 852–857. <a href="https://doi.org/10.1038/s41587-019-0209-9">https://doi.org/10.1038/s41587-019-0209-9</a>
 </div>
 </div>
-<div class="csl-entry">
-<div class="csl-left-margin">[2] </div>
-<div class="csl-right-inline">Callahan, B. J., McMurdie, P. J., Rosen, M. J., Han, A. W., Johnson, A. J. A., &amp; Holmes, S. P. (2016). DADA2: High-resolution sample inference from illumina amplicon data. <em>Nature Methods</em>, <em>13</em>(7), 581. <a href="https://doi.org/10.1038/nmeth.3869">https://doi.org/10.1038/nmeth.3869</a>
-</div>
-</div>
-<div class="csl-entry">
-<div class="csl-left-margin">[3] </div>
-<div class="csl-right-inline">Vazquez-Baeza, Y., Pirrung, M., Gonzalez, A., &amp; Knight, R. (2013). EMPeror: A tool for visualizing high-throughput microbial community data. <em>Gigascience</em>, <em>2</em>, 16. <a href="https://doi.org/10.1186/2047-217X-2-16">https://doi.org/10.1186/2047-217X-2-16</a>
-</div>
-</div>
-</div>
-</div>
+
+
+
   <div class="chapter-nav">
-<div class="prev"><a href="session-information.html"><span class="header-section-number">C</span> Session Information</a></div>
-<div class="empty"></div>
+<div class="prev"><a href="differential-abundance.html"><span class="header-section-number">7</span> Differential Abundance</a></div>
+<div class="next"><a href="imap-github-repos.html"><span class="header-section-number">A</span> IMAP GitHub Repos</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#references">References</a></li></ul>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#exploring-qiime-2-output-feature-table-taxonomy-and-metadata"><span class="header-section-number">8</span> Exploring QIIME 2 Output: Feature Table, Taxonomy, and Metadata</a></li>
+<li><a class="nav-link" href="#initial-data-exploration"><span class="header-section-number">8.1</span> Initial Data Exploration</a></li>
+<li><a class="nav-link" href="#starting-the-analysis"><span class="header-section-number">8.2</span> Starting the Analysis</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/tmbuza/imap-qiime2-bioinformatics.git/blob/gh-pages/999-references.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/tmbuza/imap-qiime2-bioinformatics.git/edit/gh-pages/999-references.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
+<li><a id="book-source" href="https://github.com/tmbuza/imap-qiime2-bioinformatics.git/blob/gh-pages/03_qiime2_process.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/tmbuza/imap-qiime2-bioinformatics.git/edit/gh-pages/03_qiime2_process.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
         </ul>
 </div>
     </nav>

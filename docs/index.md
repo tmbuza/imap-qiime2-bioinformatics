@@ -2,7 +2,7 @@
 title: "<big>IMAP:</big> Integrated Microbiome Analysis Pipelines"
 subtitle: "End-to-End Practical User Guides Using Integrated Approaches"
 date:
-- <b>2024-02-19</b>
+- <b>2024-03-10</b>
 author: Teresia Mrema-Buza
 site: bookdown::bookdown_site
 documentclass: book
@@ -17,10 +17,10 @@ citation_package:
   - natbib
   - biblatex
   - amsplain
-url: https://tmbuza.github.io/imap-project-overview/
+url: https://tmbuza.github.io/imap-qiime2-bioinformatics/
 cover-image: images/planning.png
 email_address: "ndelly@gmail.com"
-github-repo: tmbuza/imap-project-overview
+github-repo: tmbuza/imap-qiime2-bioinformatics
 biblio-style: apalike
 description: |
   | This part will be added before release.
@@ -43,21 +43,14 @@ description: |
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 
-# <u>IMAP-Part 06</u>: Microbiome Profiling with QIIME2 Pipeline {-#qiime2-profiling}
+# <u>IMAP-Part 06</u>: Microbiome Bioinformatics Analysis with Qiime2 Pipelines {-#qiime2-pipeline}
 
 <br>
 <br>
 ![](images/16srrna.png)
+<br>
+<br>
 
-## Welcome to Chapter 6 {-}
-Explore Microbiome Profiling with the QIIME2 Pipeline in Chapter 6 of the IMAP Practical User Guides series.
-
-Building on the groundwork laid in previous chapters, this section focuses on standardized approaches for metadata and sequence data retrieval, quality control, and microbiome profiling using the Mothur pipeline.
-
-Now, seamlessly integrating QIIME2 into the workflow in Part 06, we provide a comprehensive perspective on its application in the realm of microbiome research.
-
-Join us as we navigate through the features of QIIME2, leveraging insights gained from prior analyses. This chapter facilitates a smooth transition, empowering you with the skills necessary to conduct robust microbiome bioinformatics and derive meaningful conclusions from your data.
-
-
-
+## Bioinformatics journey with the Qiime2 pipeline {-}
+Embark on Chapter 6 of the IMAP Practical User Guides series as we delve into microbiome profiling with the QIIME2 pipeline. This section builds on the foundational knowledge established in previous chapters, providing standardized methods for metadata and sequence data retrieval, quality control, and comprehensive microbiome profiling using the Mothur pipeline. Join us as we navigate through QIIME2 features, leveraging insights gained from prior analyses. This chapter serves as a guide for a smooth transition, empowering you with the skills needed to conduct robust microbiome bioinformatics and extract meaningful conclusions from your data.
 

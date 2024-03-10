@@ -4,19 +4,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>IMAP-Part 06: Microbiome Profiling with QIIME2 Pipeline | IMAP: Integrated Microbiome Analysis Pipelines</title>
+<title>IMAP-Part 06: Microbiome Bioinformatics Analysis with Qiime2 Pipelines | IMAP: Integrated Microbiome Analysis Pipelines</title>
 <meta name="author" content="Teresia Mrema-Buza">
 <meta name="description" content="This part will be added before release.">
 <meta name="generator" content="bookdown 0.37 with bs4_book()">
-<meta property="og:title" content="IMAP-Part 06: Microbiome Profiling with QIIME2 Pipeline | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta property="og:title" content="IMAP-Part 06: Microbiome Bioinformatics Analysis with Qiime2 Pipelines | IMAP: Integrated Microbiome Analysis Pipelines">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://tmbuza.github.io/imap-project-overview/">
-<meta property="og:image" content="https://tmbuza.github.io/imap-project-overview/images/planning.png">
+<meta property="og:url" content="https://tmbuza.github.io/imap-qiime2-bioinformatics/">
+<meta property="og:image" content="https://tmbuza.github.io/imap-qiime2-bioinformatics/images/planning.png">
 <meta property="og:description" content="This part will be added before release.">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="IMAP-Part 06: Microbiome Profiling with QIIME2 Pipeline | IMAP: Integrated Microbiome Analysis Pipelines">
+<meta name="twitter:title" content="IMAP-Part 06: Microbiome Bioinformatics Analysis with Qiime2 Pipelines | IMAP: Integrated Microbiome Analysis Pipelines">
 <meta name="twitter:description" content="This part will be added before release.">
-<meta name="twitter:image" content="https://tmbuza.github.io/imap-project-overview/images/planning.png">
+<meta name="twitter:image" content="https://tmbuza.github.io/imap-qiime2-bioinformatics/images/planning.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="libs/Sen-0.4.8/font.css" rel="stylesheet">
@@ -73,19 +73,20 @@
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
         <ul class="book-toc list-unstyled">
-<li><a class="active" href="index.html">IMAP-Part 06: Microbiome Profiling with QIIME2 Pipeline</a></li>
-<li class="book-part">QIIME2 PLATFORM</li>
-<li><a class="" href="qiime2-platform.html"><span class="header-section-number">1</span> Microbiome Bioinformatics with QIIME2</a></li>
-<li><a class="" href="getting-started-with-qiime2.html"><span class="header-section-number">2</span> Getting Started with QIIME2</a></li>
-<li><a class="" href="import-or-download-demo-data.html"><span class="header-section-number">3</span> Import or Download Demo Data</a></li>
-<li><a class="" href="download-a-qiime-2-trained-classifer.html"><span class="header-section-number">4</span> Download a QIIME 2 Trained Classifer</a></li>
+<li><a class="active" href="index.html">IMAP-Part 06: Microbiome Bioinformatics Analysis with Qiime2 Pipelines</a></li>
+<li class="book-part">QIIME2 BIOINFORMATICS</li>
+<li><a class="" href="getting-started-with-qiime2.html"><span class="header-section-number">1</span> Getting Started with Qiime2</a></li>
+<li><a class="" href="import-or-download-demo-data.html"><span class="header-section-number">2</span> Import or Download Demo Data</a></li>
+<li><a class="" href="download-a-qiime-2-trained-classifer.html"><span class="header-section-number">3</span> Download a QIIME 2 Trained Classifer</a></li>
 <li class="book-part">SEQUENCE CLASSIFICATION</li>
-<li><a class="" href="classification-methods-for-qiime2.html"><span class="header-section-number">5</span> Classification Methods for QIIME2</a></li>
-<li><a class="" href="read-quality-control.html"><span class="header-section-number">6</span> Read Quality Control</a></li>
+<li><a class="" href="classification-methods-for-qiime2.html"><span class="header-section-number">4</span> Classification Methods for QIIME2</a></li>
+<li><a class="" href="read-quality-control.html"><span class="header-section-number">5</span> Read Quality Control</a></li>
 <li class="book-part">DIVERSITY ANALYSIS</li>
-<li><a class="" href="qiime2-diversity-analysis.html"><span class="header-section-number">7</span> QIIME2 Diversity Analysis</a></li>
+<li><a class="" href="qiime2-diversity-analysis.html"><span class="header-section-number">6</span> QIIME2 Diversity Analysis</a></li>
 <li class="book-part">DIFFERENTIAL ANALYSIS</li>
-<li><a class="" href="differential-abundance.html"><span class="header-section-number">8</span> Differential Abundance</a></li>
+<li><a class="" href="differential-abundance.html"><span class="header-section-number">7</span> Differential Abundance</a></li>
+<li class="book-part">QIIME2 OUTPUT ANALYSIS</li>
+<li><a class="" href="exploring-qiime-2-output-feature-table-taxonomy-and-metadata.html"><span class="header-section-number">8</span> Exploring QIIME 2 Output: Feature Table, Taxonomy, and Metadata</a></li>
 <li class="book-part">APPENDIX</li>
 <li><a class="" href="imap-github-repos.html"><span class="header-section-number">A</span> IMAP GitHub Repos</a></li>
 <li><a class="" href="qiime2-bioinformatics-rulegraph.html"><span class="header-section-number">B</span> QIIME2 Bioinformatics Rulegraph</a></li>
@@ -94,22 +95,19 @@
 </ul>
 
         <div class="book-extra">
-          <p><a id="book-repo" href="https://github.com/tmbuza/imap-download-sra-reads.git">View book source <i class="fas fa-air-freshener"></i></a></p>
+          <p><a id="book-repo" href="https://github.com/tmbuza/imap-qiime2-bioinformatics.git">View book source <i class="fas fa-air-freshener"></i></a></p>
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="qiime2-profiling" class="section level1 unnumbered">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="qiime2-pipeline" class="section level1 unnumbered">
 <h1>
-<u>IMAP-Part 06</u>: Microbiome Profiling with QIIME2 Pipeline<a class="anchor" aria-label="anchor" href="#qiime2-profiling"><i class="fas fa-link"></i></a>
+<u>IMAP-Part 06</u>: Microbiome Bioinformatics Analysis with Qiime2 Pipelines<a class="anchor" aria-label="anchor" href="#qiime2-pipeline"><i class="fas fa-link"></i></a>
 </h1>
-<p><br><br><img src="images/16srrna.png" alt="Book cover"></p>
-<div id="welcome-to-chapter-6" class="section level2 unnumbered">
-<h2>Welcome to Chapter 6<a class="anchor" aria-label="anchor" href="#welcome-to-chapter-6"><i class="fas fa-link"></i></a>
+<p><br><br><img src="images/16srrna.png"><br><br></p>
+<div id="bioinformatics-journey-with-the-qiime2-pipeline" class="section level2 unnumbered">
+<h2>Bioinformatics journey with the Qiime2 pipeline<a class="anchor" aria-label="anchor" href="#bioinformatics-journey-with-the-qiime2-pipeline"><i class="fas fa-link"></i></a>
 </h2>
-<p>Explore Microbiome Profiling with the QIIME2 Pipeline in Chapter 6 of the IMAP Practical User Guides series.</p>
-<p>Building on the groundwork laid in previous chapters, this section focuses on standardized approaches for metadata and sequence data retrieval, quality control, and microbiome profiling using the Mothur pipeline.</p>
-<p>Now, seamlessly integrating QIIME2 into the workflow in Part 06, we provide a comprehensive perspective on its application in the realm of microbiome research.</p>
-<p>Join us as we navigate through the features of QIIME2, leveraging insights gained from prior analyses. This chapter facilitates a smooth transition, empowering you with the skills necessary to conduct robust microbiome bioinformatics and derive meaningful conclusions from your data.</p>
+<p>Embark on Chapter 6 of the IMAP Practical User Guides series as we delve into microbiome profiling with the QIIME2 pipeline. This section builds on the foundational knowledge established in previous chapters, providing standardized methods for metadata and sequence data retrieval, quality control, and comprehensive microbiome profiling using the Mothur pipeline. Join us as we navigate through QIIME2 features, leveraging insights gained from prior analyses. This chapter serves as a guide for a smooth transition, empowering you with the skills needed to conduct robust microbiome bioinformatics and extract meaningful conclusions from your data.</p>
 
 </div>
 </div>
@@ -118,18 +116,18 @@
 
   <div class="chapter-nav">
 <div class="empty"></div>
-<div class="next"><a href="qiime2-platform.html"><span class="header-section-number">1</span> Microbiome Bioinformatics with QIIME2</a></div>
+<div class="next"><a href="getting-started-with-qiime2.html"><span class="header-section-number">1</span> Getting Started with Qiime2</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#qiime2-profiling">IMAP-Part 06: Microbiome Profiling with QIIME2 Pipeline</a></li>
-<li><a class="nav-link" href="#welcome-to-chapter-6">Welcome to Chapter 6</a></li>
+<li><a class="nav-link" href="#qiime2-pipeline">IMAP-Part 06: Microbiome Bioinformatics Analysis with Qiime2 Pipelines</a></li>
+<li><a class="nav-link" href="#bioinformatics-journey-with-the-qiime2-pipeline">Bioinformatics journey with the Qiime2 pipeline</a></li>
 </ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/tmbuza/imap-download-sra-reads.git/blob/gh-pages/index.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/tmbuza/imap-download-sra-reads.git/edit/gh-pages/index.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
+<li><a id="book-source" href="https://github.com/tmbuza/imap-qiime2-bioinformatics.git/blob/gh-pages/index.Rmd">View source <i class="fas fa-air-freshener"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/tmbuza/imap-qiime2-bioinformatics.git/edit/gh-pages/index.Rmd">Edit this page <i class="fas fa-air-freshener"></i></a></li>
         </ul>
 </div>
     </nav>
@@ -142,7 +140,7 @@
     <div class="row">
       <div class="col-12 col-md-6 mt-3">
         <p><strong><u><a class="text-light" href="https://microbiome.complexdatainsights.com"><big>IMAP:</big> Integrated Microbiome Analysis Pipelines</a></u></strong>: End-to-End Practical User Guides Using Integrated Approaches</p>
-<br><p>Authored by Teresia Mrema-Buza, Last updated: <b>2024-02-19</b>.</p>
+<br><p>Authored by Teresia Mrema-Buza, Last updated: <b>2024-03-10</b>.</p>
 <br>
 </div>
       <div class="col-12 col-md-6 mt-3">

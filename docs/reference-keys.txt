@@ -1,8 +1,5 @@
-qiime2-platform
 getting-started-with-qiime2
-create-qiime2-environment
-get-qiime2-yaml-file
-create-qiime2-env-and-install-qiime2
+dive-into-the-official-qiime2-tutorial
 installing-qiime2-using-a-bash-script
 import-or-download-demo-data
 download-a-qiime-2-trained-classifer
@@ -21,6 +18,9 @@ expected-output-artifacts
 expected-output-visualizations
 exploring-beta-diversity-metric
 differential-abundance
+exploring-qiime-2-output-feature-table-taxonomy-and-metadata
+initial-data-exploration
+starting-the-analysis
 imap-github-repos
 qiime2-bioinformatics-rulegraph
 session-information
