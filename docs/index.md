@@ -2,7 +2,7 @@
 title: "<big>IMAP:</big> Integrated Microbiome Analysis Pipelines"
 subtitle: "End-to-End Practical User Guides Using Integrated Approaches"
 date:
-- <b>2024-03-10</b>
+- <b>2024-04-24</b>
 author: Teresia Mrema-Buza
 site: bookdown::bookdown_site
 documentclass: book
@@ -51,6 +51,7 @@ description: |
 <br>
 <br>
 
-## Bioinformatics journey with the Qiime2 pipeline {-}
+## Welcome to IMAP chapter 06: QIIME2 Bioinformatics Pipeline {-}
+
 Embark on Chapter 6 of the IMAP Practical User Guides series as we delve into microbiome profiling with the QIIME2 pipeline. This section builds on the foundational knowledge established in previous chapters, providing standardized methods for metadata and sequence data retrieval, quality control, and comprehensive microbiome profiling using the Mothur pipeline. Join us as we navigate through QIIME2 features, leveraging insights gained from prior analyses. This chapter serves as a guide for a smooth transition, empowering you with the skills needed to conduct robust microbiome bioinformatics and extract meaningful conclusions from your data.
 
