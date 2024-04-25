@@ -22,5 +22,4 @@ exploring-qiime-2-output-feature-table-taxonomy-and-metadata
 initial-data-exploration
 starting-the-analysis
 imap-github-repos
-qiime2-bioinformatics-rulegraph
 session-information
